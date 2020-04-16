@@ -1,16 +1,67 @@
-.img {
-    max-width: 100%;
-    height: auto;
-}
-
-.card1 {
-display: flex;
-flex-direction: row;
-
-}
-
-.card2{
+.padre-horizontal {
     display: flex;
-    flex-direction:row;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+.hijo-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 250px;
+    background-color: #D1DADC
+}
+
+.padre-horizontal2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hijo-vertical2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.margentop {
+    margin-top: 50px;
+}
+
+.body {
+    background-image: url("/assets/jpg/Background\ Pattern.jpg");
+}
+
+
+.jumbotron {
+    background-image: url("../assets/jpg/Head\ Banner.jpg");
+    height:50vh;
+    background-size: cover;
+    }
+    .nav-link2 {
+        font-size: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+        color: whitesmoke;
+        
+        
+    }
+    .nav-link2:hover {
+        color: magenta;
+        cursor: pointer;
+    }
+    .nav2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: black;
+        border-radius: 15px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+    .main{
+        background-image: url("../assets/jpg/Background\ Pattern.jpg"); 
+        height:10vh;
+        }
