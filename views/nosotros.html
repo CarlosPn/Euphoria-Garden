@@ -34,6 +34,7 @@
 <section>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
 
+
 </section>
 <header>
     <!-- <div align="center"><img src="https://juanmadeavifue.files.wordpress.com/2011/07/empresa1.jpg"></div> -->
@@ -128,11 +129,8 @@
     </div>
     <form>
         <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputEmail4">Correo</label>
-                <input type="email" class="form-control" id="inputEmail4">
-            </div>
-
+            
+        </form>
         </div>
         <div class="form-group">
             <label for="inputAddress">Dirección</label>
@@ -161,16 +159,25 @@
                     <option>Hidalgo</option>
                 </select>
             </div>
-            <div class="form-group col-md-2">
-                <label for="inputZip">CP</label>
-                <input type="text" class="form-control" id="inputZip">
-            </div>
-        </div>
-        <div class="form-group">
+            
 
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
+    <section>
+        <form action="https://formspree.io/xqkdkpgn" method="POST" class="container">
+            <div class="form-group">
+                <label for="nombre">Deja tu nombre:</label>
+                <input class="form-control" type="text" name="nombre" id="">
+            </div>
+            <div class="form-group">
+                <label for="mail">Deja tu correo:</label>
+                <input class="form-control" type="email" name="mail" id="">
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Deja un mensaje o dudas:</label>
+                <textarea class="form-control" name="mensaje" id="" cols="30" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
 </div>
 
 
