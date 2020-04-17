@@ -1,0 +1,77 @@
+main {
+    background-image: url("../assets/jpg/Background\ Pattern.jpg");
+    height: auto;
+}
+
+.jumbotron {
+    background-image: url("../assets/jpg/Head\ Banner.jpg");
+    height: 50vh;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.nav-link2 {
+    font-size: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: whitesmoke;
+}
+
+.nav-link2:hover {
+    color: magenta;
+    cursor: pointer;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1a1b24;
+    border-radius: 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.titulo{
+    margin-top: 10px;
+    margin-left: 190px;
+}
+
+.fondo {
+    background-image: url("../assets/jpg/Background\ Pattern.jpg");
+}
+
+.container {
+    height: 70vh;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.tamano1{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.botton {
+    width: 200px;
+}
+
+.texto {
+    width: 400px;
+    text-align: center;
+    margin-top: 190px;
+    margin-left: 190px;
+}
