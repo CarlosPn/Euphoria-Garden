@@ -84,19 +84,20 @@
 
 .img-mediana {
     width: 300px;
-    height: 300px;}
+    height: 300px;
+}
 
-    .h1 {
-        color: black;
-        margin-right: 70px;
-        margin-left:70px;
-        font-size: 70px;
-        border-style: solid;
-    }
+.h1 {
+    color: black;
+    margin-right: 70px;
+    margin-left: 70px;
+    font-size: 70px;
+    border-style: solid;
+}
 
-    .center {
-        margin: auto;
-        width: 50%;
-        border: 1px solid rgb(124, 0, 128);
-        padding: 10px;
-      }
+.center {
+    margin: auto;
+    width: 50%;
+    border: 1px solid rgb(124, 0, 128);
+    padding: 10px;
+}
