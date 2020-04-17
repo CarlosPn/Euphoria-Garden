@@ -53,8 +53,9 @@
     </nav>
 
     <section class="fondo">
+        <h2 class="titulo" >Selecciona el tipo de clima de tu región y encuentra tu semilla indicada.</h2> 
         <div class="container">
-            <h2 class="titulo" >Selecciona el tipo de clima de tu región y encuentra tu semilla indicada.</h2> 
+        <div class="row">  
             <div class="column"> 
                 <br>
                 <br>
@@ -63,26 +64,27 @@
                     
                     <!--climatemplado-->
                     
-                    <button type="button tamano2" class="btn btn-secondary btn-lg" id="clima-templado">Clima Templado</button>
+                    <button onclick="seleccionarClima('ciudad')" type="button tamano2" class="btn btn-secondary btn-lg botton" id="clima-templado">Clima Templado</button>
                     <br>
                     <br>
-                    
                     <br>
                     <!-- climaseco -->
                     
-                    <button onclick="" type="button tamano4" class="btn btn-secondary btn-lg" id="clima-seco">Clima Seco</button>
+                    <button onclick="seleccionarClima('desierto')" type="button tamano4" class="btn btn-secondary btn-lg botton" id="clima-seco">Clima Seco</button>
                     <br>
                     <br>
-                    
                     <br>
                     <!--climatropical-->
                     
-                    <button type="button tamano6" class="btn btn-secondary btn-lg" id="clima-tropical">Clima Tropical</button>
+                    <button onclick="seleccionarClima('tropical')" type="button tamano6" class="btn btn-secondary btn-lg botton" id="clima-tropical">Clima Tropical</button>
                 </section>
+                
             </div>
-            <div>
+            <div class="texto" id="resultado">
+            
             
             </div>
+        </div>    
         </div>
         
     </section>
