@@ -16,6 +16,7 @@ background-size: cover;
     color: whitesmoke;
     
     
+    
 }
 .nav-link2:hover {
     color: magenta;
@@ -31,4 +32,17 @@ background-size: cover;
     margin-left: 3px;
 }
 
+#header {
+    
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+}
 
+.jumbotron2{
+    height:50vh;
+}
+
+.navbar{
+    margin-bottom: 0px !important;
+}
