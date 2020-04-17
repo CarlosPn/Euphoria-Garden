@@ -1,0 +1,47 @@
+    
+    .jumbotron {
+    background-image: url("../assets/jpg/Head\ Banner.jpg");
+    height:50vh;
+    background-size: cover;
+    }
+    
+    .nav-link2 {
+        font-size: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+        color: whitesmoke;
+        
+        
+        
+    }
+    .nav-link2:hover {
+        color: magenta;
+        cursor: pointer;
+    }
+    .nav2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: black;
+        border-radius: 15px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    
+    #header {
+        
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+    }
+    
+    .jumbotron2{
+        height:50vh;
+    }
+    
+.section1{
+    height:75vh;
+    background-image: url("../assets/jpg/Background\ Pattern.jpg"); 
+    text-align: center;
+    
+}
