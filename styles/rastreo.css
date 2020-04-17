@@ -1,6 +1,5 @@
-    
     .jumbotron {
-    background-image: url("../assets/jpg/Head\ Banner.jpg");
+    background-image: url("../assets/jpg/HeadBanner.jpg");
     height:50vh;
     background-size: cover;
     }
@@ -41,7 +40,7 @@
     
 .section1{
     height:75vh;
-    background-image: url("../assets/jpg/Background\ Pattern.jpg"); 
+    background-image: url("../assets/jpg/BackgroundPattern.jpg"); 
     text-align: center;
     
 }
