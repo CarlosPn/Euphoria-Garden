@@ -1,10 +1,10 @@
 main{
-background-image: url("../assets/jpg/Background\ Pattern.jpg"); 
+background-image: url("../assets/jpg/BackgroundPattern.jpg"); 
 height:10vh;
 }
 
 .jumbotron {
-background-image: url("../assets/jpg/Head\ Banner.jpg");
+background-image: url("../assets/jpg/HeadBanner.jpg");
 height:50vh;
 background-size: cover;
 }
