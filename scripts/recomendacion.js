@@ -1,5 +1,4 @@
 
-alert("funciona")
 var climaseco = {
     nombre: "Desierto",
     temperatura: "Arriba de 38 grados",
@@ -57,10 +56,6 @@ function seleccionarClima(clima){
 var climaTemplado = document.getElementById ("clima-templado");
 var climaSeco = document.getElementById ("clima-seco");
 var climaTropical = document.getElementById ("clima-tropical");
-
-
-// var climaSeco=document.getElementById("climaseco-url");
-//     climaSeco.src=climaseco.url;
 
 
 
